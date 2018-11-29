@@ -33,7 +33,19 @@ public class JavaApplication32 {
                 articulos.add(nombre);                
             }
             if (entradaTeclado==2){
-
+                System.out.println(articulos.size());
+                if(articulos.size()>0){
+                    System.out.println("introduzca su nombre para crear cuenta: ");
+                    String nombre2 = name.nextLine ();
+                    int largo=articulos.size();
+                    int i=0;
+                    System.out.println("productos");
+                    while (i<largo){
+                        System.out.println(i+"  "+articulos.get(i));
+                        i=i+1;
+                    }
+                    System.out.println("escriba el indice del producto a comprar");
+                    int comprarr = name.nextInt ();
             }
             if (entradaTeclado==3){
 
