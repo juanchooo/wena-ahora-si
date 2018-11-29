@@ -61,7 +61,15 @@ public class JavaApplication32 {
                 }
             }
             if (entradaTeclado==3){
-
+              if (articulos.size()!=0){
+                int largo=articulos.size();
+                int i=0;
+                System.out.println("productos");
+                while (i<largo){
+                    System.out.println(i+"  "+articulos.get(i));
+                    i=i+1;
+                }  
+              }
             }
         }   
     }
