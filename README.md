@@ -23,7 +23,14 @@ public class JavaApplication32 {
             Scanner entradaEscaner = new Scanner (System.in);
             int entradaTeclado = entradaEscaner.nextInt ();
             if (entradaTeclado==1){
-                
+                System.out.println("introduzca su nombre para crear cuenta: ");
+                 //Creación de un objeto Scanner
+                String nombre2 = name.nextLine ();
+                System.out.println("nombre de producto: ");
+                String nombre = name.nextLine ();
+                System.out.println("precio: ");
+                int precio = name.nextInt ();
+                articulos.add(nombre);                
             }
             if (entradaTeclado==2){
 
