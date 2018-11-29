@@ -46,6 +46,19 @@ public class JavaApplication32 {
                     }
                     System.out.println("escriba el indice del producto a comprar");
                     int comprarr = name.nextInt ();
+                    Random random = new Random();
+                    int x = random.nextInt(100) + 1;
+                    if(x<50){
+                        articulos.remove(comprarr);
+                        System.out.println("compradooooo!!!!!!");
+                    }
+                    else{
+                        System.out.println("lo sentimos, un millonario compro el articulo");
+                    }                    
+                }
+                else{
+                    System.out.println("no hay articulos para comprar");
+                }
             }
             if (entradaTeclado==3){
 
